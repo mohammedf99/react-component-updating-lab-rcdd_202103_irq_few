@@ -46,7 +46,7 @@ class Timer extends Component {
     this.setState({ className: "hidden" });
   };
 
-  // for the 'x' button,
+  
   handleClose = () => {
     this.props.removeTimer(this.props.id);
   };
